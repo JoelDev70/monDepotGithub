@@ -1,0 +1,59 @@
+body{
+    background-image: url(portofolio1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:center */
+    background-attachment: fixed;
+}
+body{
+    margin-right: 50px;
+    margin-left:50px;
+    margin-bottom: 100px;
+}
+.welcome{
+   color:bisque;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: blink;
+    margin-top: 200px;
+    animation: defilement 5s linear infinite;
+}
+.onglets{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 20px;
+    /* position: fixed; */
+}
+.nom{
+color: coral;
+/* margin-right: 1135px; */
+font-size: 20px;
+}
+
+.onglets a{
+    color: deepskyblue;
+    margin-right: 10px;
+    /* position: fixed; */
+  
+}
+
+.tete{
+    max-width: 360px;
+    max-height: 300px;
+    background-color:rgb(168, 166, 166);
+    border: 0.3ch solid #0f38b4;
+    color: rgb(26, 4, 71);
+    margin-top: 60px;
+    justify-content: center;
+}
+.textepropre{
+    margin-left: 5px;
+    font-size: 21px;
+}
+
+footer{
+   color: aquamarine;
+    margin-top: 550px; 
+}
+
+
