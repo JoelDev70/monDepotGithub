@@ -1,59 +1,183 @@
 body{
-    background-image: url(portofolio1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position:center */
     background-attachment: fixed;
 }
-body{
-    margin-right: 50px;
-    margin-left:50px;
-    margin-bottom: 100px;
+
+ body{
+    margin-right: 80px;
+    margin-left:20px;
+    background: linear-gradient(135deg, #0a0f30, #000428);
+    color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+} 
+
+.head{
+    color: rgb(124, 88, 73);
 }
 .welcome{
    color:bisque;
     text-align: center;
     font-size: 50px;
     text-decoration: blink;
-    margin-top: 200px;
+    bottom: 50%;
+    left: 27%; 
     animation: defilement 5s linear infinite;
+    z-index: -1;
+    position: fixed;
 }
 .onglets{
+
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-end; 
     font-size: 20px;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    top: 15px;
+    right: 30px;
+    padding: 12px 20px;
+    z-index: 100;
+    gap: 20px;
+    background: #023eBa;
+    border-radius: 10px;
+     
 }
+
 .nom{
 color: coral;
-/* margin-right: 1135px; */
-font-size: 20px;
+font-size: 15px;
+top: 0;
+left: 0;
+position: fixed;
+left: 50px;
+z-index: 100;
 }
 
 .onglets a{
-    color: deepskyblue;
-    margin-right: 10px;
-    /* position: fixed; */
-  
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.avecPhoto{
+    justify-content:space-around;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+
 }
 
-.tete{
-    max-width: 360px;
-    max-height: 300px;
-    background-color:rgb(168, 166, 166);
-    border: 0.3ch solid #0f38b4;
-    color: rgb(26, 4, 71);
-    margin-top: 60px;
+
+#apropos{
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px auto;
+    width: 45%;
+    margin-left: 5%;
+}
+.titreApro{
+    text-align: center;
+    color: antiquewhite;
+}
+.textApro{
+    color: antiquewhite;
     justify-content: center;
+    margin: 10px;
 }
+
+#competence{
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px auto;
+    width: 45%;
+    margin-left: 50%;
+}
+.titreComp{
+    color: antiquewhite;
+    text-align: center;}
+
+.textComp{
+    justify-content: center;
+    color: antiquewhite;
+    margin: 10px;
+}
+
+
+#projet{
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px auto;
+    width: 45%;
+    margin-left: 5%;
+}
+.titreP{
+    text-align: center;
+    color: antiquewhite;
+}
+.textP{
+    color: antiquewhite;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
+#contact{
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px auto;
+    width: 45%;
+    margin-left: 50%;
+
+}
+.titreC{
+    text-align: center;
+    color: antiquewhite;
+}
+.textC{
+    color: antiquewhite;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+img{
+    margin-left: 200px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
 .textepropre{
-    margin-left: 5px;
-    font-size: 21px;
+    margin-right: 200px;
+    font-size: 25px;
+    z-index: -1;
+    color: darkgray;
+    margin-left: 20px;
 }
+
 
 footer{
-   color: aquamarine;
-    margin-top: 550px; 
+    color: rgb(223, 240, 234);
+    margin-top: 200px; 
+    padding:30px;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    
 }
 
 
